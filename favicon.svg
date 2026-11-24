@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#191816"/><path d="M32 11l4.7 13.1L50 19l-5.1 13L58 37l-13.1 4.7L50 55l-13-5.1L32 63l-4.7-13.1L14 55l5.1-13L6 37l13.1-4.7L14 19l13 5.1z" fill="#b49a5b" transform="translate(0 -5) scale(1 .92)"/><circle cx="32" cy="32" r="7" fill="#fffdf9"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Me All Pets">
+<rect width="64" height="64" rx="32" fill="#171614"/>
+<g fill="#d8bd7b" transform="translate(7 7) scale(1.04)">
+<ellipse cx="13" cy="15" rx="5.1" ry="6.8" transform="rotate(-23 13 15)"/>
+<ellipse cx="25" cy="10" rx="5" ry="6.5" transform="rotate(-7 25 10)"/>
+<ellipse cx="38" cy="15" rx="5.1" ry="6.8" transform="rotate(23 38 15)"/>
+<ellipse cx="8" cy="29" rx="4.6" ry="6.2" transform="rotate(-35 8 29)"/>
+<path d="M25 23c-7.2 0-15.5 8.5-15.5 15.1 0 5.5 4.3 7.8 9.3 6.1 2.5-.9 4.2-2.1 6.2-2.1s3.7 1.2 6.2 2.1c5 1.7 9.3-.6 9.3-6.1C40.5 31.5 32.2 23 25 23Z"/>
+<ellipse cx="42" cy="29" rx="4.6" ry="6.2" transform="rotate(35 42 29)"/>
+</g>
+</svg>
