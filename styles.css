@@ -11,3 +11,45 @@
 .detail-row a:hover{color:#8c713d}
 @media(max-width:760px){.floating-whatsapp{right:14px;bottom:14px;padding:13px 16px}.main-nav{top:106px}}
 @media(prefers-reduced-motion:reduce){.floating-whatsapp{transition:none}}
+
+
+/* Refinamento visual: identidade preto, dourado e marfim */
+:root{--ink:#191816;--muted:#625e57;--cream:#fffefa;--green:#f3efe7;--deep:#171614;--peach:#f5eee2;--lilac:#f0ece4;--line:#e6dfd2;--gold:#b49a5b}
+.announcement{background:#171614}
+.brand-mark{background:#171614;color:#d8bd7b;border-color:#b49a5b}
+.brand small{color:#9a804b}
+.main-nav>a:not(.nav-cta){color:#514b41}
+.main-nav>a:hover,.text-link:hover,.under-link:hover{color:#9a7839}
+.nav-cta,.button-dark{background:#171614}
+.nav-cta:hover,.button-dark:hover{background:#4a3c20}
+.hero-image-wrap{background:#eee8dc}
+.trust-strip{background:#f1ede5}
+.trust-strip i{background:#d9cfbc}
+.trust-strip div span,.service-icon,.image-caption span:last-child{color:#9a8045}
+.service-green,.service-lilac{background:#f1ede5}
+.service-peach{background:#f5eee2}
+.service-number{color:#8a7446}
+.service-card p{color:#625e57}
+.service-card>a{border-color:#c8b88f}
+.care-banner{background:#171614}
+.care-copy .section-kicker{color:#d7c18c}
+.care-copy h2 em{color:#d8bd7b}
+.care-copy>p{color:#e1ddd4}
+.care-decoration{color:#b49a5b;opacity:.22}
+.detail-row>span{color:#8c7950}
+.detail-row small{color:#716b60}
+.footer{color:#716b60}
+.footer>a:last-child{color:#766039}
+.faq{padding-top:20px;padding-bottom:95px}
+.faq-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin:18px 0 28px}
+.faq-heading h2{font:600 clamp(32px,4vw,48px) "Manrope",sans-serif;letter-spacing:-.06em;margin:0}
+.faq-heading h2 em{font:400 italic clamp(32px,4vw,48px) Georgia,serif;color:#9b8049}
+.faq-heading>p{max-width:300px;color:var(--muted);font-size:12px;line-height:1.8;margin:0}
+.faq-list{border-top:1px solid var(--line)}
+.faq-list details{border-bottom:1px solid var(--line);padding:20px 4px}
+.faq-list summary{cursor:pointer;list-style:none;font:600 15px "Manrope",sans-serif;padding-right:30px;position:relative}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary:after{content:"+";position:absolute;right:5px;top:-3px;font:400 23px Georgia,serif;color:#9b8049}
+.faq-list details[open] summary:after{content:"−"}
+.faq-list details p{font-size:12px;line-height:1.85;color:var(--muted);max-width:720px;margin:13px 0 0}
+@media(max-width:760px){.faq{padding-top:10px;padding-bottom:70px}.faq-heading{display:block}.faq-heading>p{margin-top:14px}.faq-list summary{font-size:14px}}
