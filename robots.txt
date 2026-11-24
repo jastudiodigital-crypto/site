@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crypto-site-ca34f4.netlify.app/sitemap.xml
